@@ -4,6 +4,40 @@
 	box-sizing: border-box;
 }
 
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 6rem;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: slateblue;
+}
+
 h1 {
 	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 500;
+}
+
+.logo {
+	color: rgb(226, 226, 226);
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 1.25em;
+}
+
+.nav-link {
+	display: flex;
+	justify-content: space-around;
+	width: 35%;
+}
+
+.nav-link a {
+	color: rgb(226, 226, 226);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.nav-link li {
+	list-style: none;
 }
