@@ -52,3 +52,31 @@ h1 {
 	background-color: rgb(226, 226, 226);
 	margin: 5px;
 }
+
+@media screen and (max-width: 900px) {
+	body {
+		overflow-x: hidden;
+	}
+	.nav-link {
+		position: absolute;
+		right: 0px;
+		height: 100%;
+		width: 40%;
+		top: 6rem;
+		background-color: slateblue;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+	}
+
+	.burger {
+		display: block;
+		cursor: pointer;
+	}
+}
+
+.nav-active {
+	transform: translateX(0%);
+}
