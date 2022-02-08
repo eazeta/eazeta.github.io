@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 nav {
@@ -9,13 +10,12 @@ nav {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 6rem;
-	font-family: 'Ubuntu', sans-serif;
-	background-color: slateblue;
+	width: 100%;
+	background-color: #9a031e;
 }
 
 h1 {
 	text-transform: uppercase;
-	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 }
 
@@ -63,7 +63,7 @@ h1 {
 		height: 100%;
 		width: 40%;
 		top: 6rem;
-		background-color: slateblue;
+		background-color: #9a031e;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -79,4 +79,54 @@ h1 {
 
 .nav-active {
 	transform: translateX(0%);
+}
+
+.intro {
+	text-align: center;
+}
+
+.icon {
+	height: 200px;
+}
+
+.intro,
+.skills,
+.rExperience,
+.education,
+.pEmployment {
+	border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
+	padding: 40px;
+}
+
+.skills ul {
+	list-style: none;
+	padding: 0px;
+}
+
+.skills li {
+	display: inline;
+}
+
+.education li {
+	display: inline;
+}
+
+.education ul {
+	padding: 0px;
+}
+
+ul {
+	list-style-type: square;
+	padding-left: 30px;
+}
+
+.skills i {
+	font-size: 70px;
+	color: #9a031e;
+	opacity: 0.8;
+}
+
+.darkmode {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: whitesmoke;
 }

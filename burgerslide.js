@@ -7,18 +7,8 @@ const navSlide = () => {
 	});
 };
 
-const darkmode = () => {
-	const darkModeButton = document.querySelector('.darkModeButton');
-	const background = document.querySelector('body');
-
-	darkModeButton.addEventListener('click', () => {
-		background.classList.toggle('darkmode');
-	});
-};
-
 const app = () => {
 	navSlide();
-	darkmode();
 };
 
 app();
