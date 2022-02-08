@@ -20,7 +20,7 @@ h1 {
 }
 
 .logo {
-	color: rgb(226, 226, 226);
+	color: whitesmoke;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 1.25em;
@@ -33,7 +33,7 @@ h1 {
 }
 
 .nav-link a {
-	color: rgb(226, 226, 226);
+	color: whitesmoke;
 	text-decoration: none;
 	font-weight: bold;
 }
