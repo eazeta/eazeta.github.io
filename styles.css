@@ -12,6 +12,7 @@ nav {
 	min-height: 6rem;
 	width: 100%;
 	background-color: #9a031e;
+	color: whitesmoke;
 }
 
 h1 {
@@ -134,4 +135,11 @@ ul {
 
 a {
 	color: #9a031e;
+}
+
+.material-icons.md-48 {
+	font-size: 48px;
+	border: solid 2px rgba(245, 245, 245, 0.6);
+	border-radius: 30%;
+	padding: 3px;
 }
