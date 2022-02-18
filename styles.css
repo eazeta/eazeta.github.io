@@ -139,7 +139,15 @@ a {
 
 .material-icons.md-48 {
 	font-size: 48px;
-	border: solid 2px rgba(245, 245, 245, 0.6);
+	border: solid 2px rgba(245, 245, 245, 0);
 	border-radius: 30%;
 	padding: 3px;
+}
+
+.material-icons.md-48:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.material-icons.md-48:active {
+	background-color: rgba(0, 0, 0, 0.8);
 }
