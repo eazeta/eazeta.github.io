@@ -1,24 +1,13 @@
-const navSlide = () => {
-	const burger = document.querySelector('.burger');
-	const nav = document.querySelector('.nav-link');
+const toggleMenu = document.getElementsByClassName('toggle-menu')[0];
+const navbarLinks = document.getElementsByClassName('navbar-links')[0];
 
-	burger.addEventListener('click', () => {
-		nav.classList.toggle('nav-active');
-	});
-};
+toggleMenu.addEventListener('click', () => {
+	navbarLinks.classList.toggle('active');
+});
 
-const darkmode = () => {
-	const darkModeButton = document.querySelector('.darkModeButton');
-	const background = document.querySelector('body');
+const darkModeButton = document.querySelector('.darkModeButton');
+const background = document.querySelector('body');
 
-	darkModeButton.addEventListener('click', () => {
-		background.classList.toggle('darkmode');
-	});
-};
-
-const app = () => {
-	navSlide();
-	darkmode();
-};
-
-app();
+darkModeButton.addEventListener('click', () => {
+	background.classList.toggle('darkmode');
+});
