@@ -102,46 +102,49 @@ a {
 	}
 }
 
-.intro {
+#intro {
 	text-align: center;
 }
 
-.intro img {
+#projects p {
+	text-align: justify;
+}
+
+#intro img {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
 	border: 0.5rem solid #1d2228;
 }
 
-.intro,
-.skills,
-.rExperience,
-.education,
-.pEmployment {
+#intro,
+#skills,
+#rExperience,
+#education,
+#pEmployment,
+#projects {
 	border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
 	padding: 40px;
 }
 
-.skills ul,
-.intro ul {
+#skills ul,
+#intro ul {
 	list-style: none;
 	padding: 0px;
 }
 
-.skills li,
-.intro li {
+#skills li,
+#intro li,
+#education li {
 	display: inline;
 }
 
-.education li {
-	display: inline;
-}
-
-.education ul {
+#education ul {
 	padding: 0px;
 }
 
-.pEmployment ul {
+#pEmployment ul,
+#projects ul {
 	list-style-type: square;
 	padding-left: 30px;
 }
@@ -160,13 +163,13 @@ a {
 	text-decoration: none;
 }
 
-.skills i {
+#skills i {
 	font-size: 70px;
 	color: #fb8122;
 	opacity: 0.8;
 }
 
-.skills i:hover {
+#skills i:hover {
 	font-size: 100px;
 }
 
@@ -185,4 +188,16 @@ a {
 
 .material-icons.md-48:hover {
 	cursor: pointer;
+}
+
+.documentLinks {
+	display: flex;
+	text-align: center;
+	justify-content: space-evenly;
+	padding: 1rem 0 1rem 0;
+}
+
+#projects a,
+#projects label {
+	font-weight: bold;
 }
