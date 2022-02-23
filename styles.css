@@ -6,10 +6,6 @@
 	letter-spacing: -0.03rem;
 }
 
-body {
-	padding-top: 65px;
-}
-
 .navbar {
 	display: flex;
 	justify-content: space-between;
@@ -149,6 +145,7 @@ li {
 #pEmployment,
 #projects {
 	border-bottom: solid 0.5px rgba(0, 0, 0, 0.1);
+	/*padding: 6rem 40px 6rem 40px;*/
 	padding: 40px;
 }
 
@@ -232,6 +229,8 @@ li {
 	justify-content: center;
 }
 /*Sourced from W3Schools*/
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
 	position: fixed;
 	top: 0;
@@ -239,6 +238,29 @@ li {
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-	padding-top: 60px;
+.sticky + #intro {
+	padding-top: 9rem;
+}
+
+iframe {
+	display: flex;
+	justify-content: space-around;
+}
+
+table {
+	width: 100%;
+	border-width: 1rem;
+	padding: 1rem;
+}
+table th {
+	width: 50%;
+	padding: 0 1rem 0 1rem;
+}
+
+h3 {
+	padding-bottom: 0.3rem;
+}
+
+h2 span {
+	font-weight: normal;
 }
