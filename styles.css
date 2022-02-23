@@ -3,6 +3,11 @@
 	padding: 0px;
 	box-sizing: border-box;
 	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: -0.03rem;
+}
+
+body {
+	padding-top: 80px;
 }
 
 .navbar {
@@ -14,13 +19,32 @@
 	height: 5rem;
 }
 
-h1 {
+h1,
+h2,
+h3 {
 	text-transform: uppercase;
+}
+
+h1 {
 	font-weight: 500;
+}
+
+h2 {
+	padding: 0.5rem 0 0.8rem 0;
+}
+
+section {
+	padding-bottom: 2rem;
 }
 
 a {
 	color: #fb8122;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
 }
 
 .logo {
@@ -106,7 +130,8 @@ a {
 	text-align: center;
 }
 
-#projects p {
+.pEducation p,
+li {
 	text-align: justify;
 }
 
@@ -166,7 +191,7 @@ a {
 #skills i {
 	font-size: 70px;
 	color: #fb8122;
-	opacity: 0.8;
+	opacity: 1;
 }
 
 #skills i:hover {
@@ -194,10 +219,26 @@ a {
 	display: flex;
 	text-align: center;
 	justify-content: space-evenly;
-	padding: 1rem 0 1rem 0;
+	padding: 0.5rem 0 0.5rem 0;
 }
 
 #projects a,
 #projects label {
 	font-weight: bold;
+}
+
+#projects label {
+	display: flex;
+	justify-content: center;
+}
+/*Sourced from W3Schools*/
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+	padding-top: 60px;
 }
