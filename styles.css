@@ -25,7 +25,11 @@ h3 {
 	text-transform: uppercase;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+b {
 	font-weight: 500;
 }
 
@@ -40,7 +44,7 @@ section {
 a {
 	color: #fb8122;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: 500;
 }
 
 a:hover {
@@ -228,7 +232,7 @@ li {
 
 #projects a,
 #projects label {
-	font-weight: bold;
+	font-weight: 500;
 }
 
 #projects label {
@@ -252,10 +256,6 @@ li {
 
 h3 {
 	padding-bottom: 0.3rem;
-}
-
-h2 span {
-	font-weight: normal;
 }
 
 #soundcloud1,
