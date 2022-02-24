@@ -6,8 +6,8 @@
 
 body {
 	-webkit-font-smoothing: subpixel-antialiased;
-	letter-spacing: -0.03rem;
 	font-family: 'Ubuntu', sans-serif;
+	background-color: white;
 }
 
 .navbar {
@@ -17,39 +17,6 @@ body {
 	background-color: #1d2228;
 	color: #e1e2e2;
 	height: 5rem;
-}
-
-h1,
-h2,
-h3 {
-	text-transform: uppercase;
-}
-
-h1,
-h2,
-h3,
-h4,
-b {
-	font-weight: 500;
-}
-
-h2 {
-	padding: 0.5rem 0 0.8rem 0;
-}
-
-section {
-	padding-bottom: 2rem;
-}
-
-a {
-	color: #fb8122;
-	text-decoration: none;
-	font-weight: 500;
-}
-
-a:hover {
-	text-decoration: underline;
-	text-decoration-thickness: 2px;
 }
 
 .logo {
@@ -105,7 +72,7 @@ a:hover {
 	border-radius: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
 	.toggle-menu {
 		display: flex;
 	}
@@ -129,6 +96,36 @@ a:hover {
 	.navbar-links.active {
 		display: flex;
 	}
+}
+
+h1,
+h2,
+h3 {
+	text-transform: uppercase;
+}
+
+h1,
+h4,
+b {
+	font-weight: 500;
+}
+
+h2 {
+	padding: 0.5rem 0 0.8rem 0;
+}
+
+section {
+	padding-bottom: 2rem;
+}
+
+a {
+	color: #fb8122;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
 }
 
 #intro,
@@ -163,7 +160,6 @@ li {
 #skills ul,
 #intro ul {
 	list-style: none;
-	padding: 0px;
 }
 
 #skills li,
@@ -172,14 +168,18 @@ li {
 	display: inline;
 }
 
-#education ul {
-	padding: 0px;
+#rExperience ul {
+	list-style: none;
 }
 
 #pEmployment ul,
 #projects ul {
 	list-style-type: square;
 	padding-left: 30px;
+}
+
+.socials {
+	padding: 2rem 0 1rem 0;
 }
 
 .socials i {
@@ -199,7 +199,6 @@ li {
 #skills i {
 	font-size: 70px;
 	color: #fb8122;
-	opacity: 1;
 }
 
 #skills i:hover {
@@ -258,8 +257,38 @@ h3 {
 	padding-bottom: 0.3rem;
 }
 
-#soundcloud1,
-#soundcloud2 {
-	width: 49%;
+.soundcloud,
+.smallContainer {
+	width: 48%;
 	display: inline-block;
+	margin: 1%;
+}
+
+.smallContainer {
+	padding: 0.5rem 1rem 0.5rem 0.5rem;
+	height: 15rem;
+	overflow: auto;
+}
+
+.medContainer {
+	width: 98%;
+	background-color: rgba(225, 226, 226, 0.8);
+}
+
+#rExperience img {
+	height: 50px;
+	width: auto;
+	margin: 1rem 0 1rem 0;
+}
+
+#rExperience ul {
+	list-style: square;
+	padding-left: 30px;
+}
+
+.frontEnd {
+	background-color: rgba(251, 129, 34, 0.8);
+}
+.backEnd {
+	background-color: rgba(225, 226, 226, 0.8);
 }
