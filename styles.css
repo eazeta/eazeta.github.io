@@ -67,7 +67,7 @@ body {
 	border-radius: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 930px) {
 	.toggle-menu {
 		display: flex;
 	}
