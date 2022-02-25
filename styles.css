@@ -27,10 +27,6 @@ body {
 	margin: 3rem;
 }
 
-.navbar-links {
-	padding-right: 4rem;
-}
-
 .navbar-links ul {
 	margin: 0;
 	padding: 0;
@@ -72,7 +68,7 @@ body {
 	border-radius: 10px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 800px) {
 	.toggle-menu {
 		display: flex;
 	}
@@ -80,7 +76,6 @@ body {
 	.navbar-links {
 		display: none;
 		width: 100%;
-		text-align: center;
 	}
 
 	.navbar {
@@ -95,6 +90,11 @@ body {
 
 	.navbar-links.active {
 		display: flex;
+	}
+
+	.logo {
+		position: absolute;
+		top: -1.45rem;
 	}
 }
 
