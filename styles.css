@@ -231,7 +231,6 @@ li {
 
 .documentLinks {
 	display: flex;
-	text-align: center;
 	justify-content: space-evenly;
 	padding: 0.5rem 0 0.5rem 0;
 }
@@ -298,4 +297,19 @@ h3 {
 }
 .backEnd {
 	background-color: rgba(225, 226, 226, 0.8);
+}
+
+#memes p {
+	text-align: center;
+	padding: 1rem;
+}
+
+#stonkmanContainer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+#stonkmanContainer img:hover {
+	cursor: pointer;
 }
