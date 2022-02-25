@@ -34,7 +34,7 @@ body {
 
 .navbar-links li {
 	list-style: none;
-	padding: 1.5rem 0rem 1.5rem 0rem;
+	padding: 1.5rem 0.5rem 1.5rem 0.5rem;
 	text-align: center;
 }
 
@@ -217,11 +217,9 @@ li {
 .material-icons.md-48 {
 	font-size: 36px;
 	padding: 0 1rem 0 1rem;
-	position: relative;
-	top: 8px;
 }
 
-.material-icons.md-48:hover {
+.darkModeButton:hover {
 	cursor: pointer;
 }
 
